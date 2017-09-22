@@ -26,8 +26,8 @@ public class UC01CadastrarEmpresa {
 	}
 
 	@AfterClass
-	public static void tearDownAfterClass() throws Exception {
-		
+	public static void tearDownAfterClass() throws Exception {	
+		empresaDao.exclui(empresa.getCnpj());
 	}
 
 	@Test
