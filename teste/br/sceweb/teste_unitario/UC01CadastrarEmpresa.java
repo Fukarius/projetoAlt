@@ -27,6 +27,7 @@ public class UC01CadastrarEmpresa {
 
 	@AfterClass
 	public static void tearDownAfterClass() throws Exception {
+		
 	}
 
 	@Test
